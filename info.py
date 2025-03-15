@@ -4,7 +4,7 @@ import time
 import json
 
 # Your VirusTotal API key
-API_KEY = '8fadc0b04b970cbf9730a9326430496a065b146500b2684cc469c533584c4280'
+API_KEY = ''
 
 def get_file_info(file_hash):
     headers = {'x-apikey': API_KEY}
